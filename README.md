@@ -1,10 +1,9 @@
-# mr-nav-state
-Small Angular.js directive that sets an `is-active` class on elements that have (or contain) an `[href="currentUrl"]`
+# mr-haraway
+Small Angular.js directive that makes working with Haraway easier
 
 ## Usage
 
 ```html
-<li mr-nav-state[="/optional/hardcoded/url"] [mr-nav-state-strict]>
-  <a ng-href="bar">Foo</a>
-</li>
+<div mr-haraway="'haraway_id'">
+</div>
 ```
