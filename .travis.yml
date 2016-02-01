@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: npm
+  email: pieterbeulque@gmail.com
+  api_key:
+    secure: A8qDZHWvrfSvZPUphj+AMp8HlKuICRLn9BhMkmTzsSvm52X5Gv66Ptd8R2nwFJgwYU6ezdjfpwa7zBs5Y9m+3bJkf7FtVKfcll2BXQ2tyQ2o1mxdyJiQJPt8viUV8UX9hkN5UFByqjGiDwBYRWt2pUMQgjKjPAbBV/jjT8S8wiB+w4IuioldpjCWm9238cKvJNXMbwoyV2Jc+CmqdP5SS7Mx1pQsLRmxqZOAaNfguEBKD9/QB4besTmQD20uon0NRskM9HfZi6aucksl6eSHZtn6sTaW8NTdMJp2izWs82w01Avi+1QL9LLGoSyXpLnv6kfFOE01y+VRnxqfof8P/azyIxjC1fdH3frS96YdCd99vasjiQWcENm9bFy2ZP3PTUnImXdH5OaRal7hYsfxZ8fB9ltoH554Y3i0hKQi9EeZFr7lcMUD/rJHeybV/0Pqj1RUJTrBwCl1FHUeTgBXbkONKDZsX8DY66GfE6NY1dL03Vxmvv3Hs0Bwd0MOADzkkNaao3RPiZRMV+6Ov32JMeAjUohsFoBJ+yrHX0X8Q8/u/5eSiQfRcZy54nxie9jmtudyJ2IitD6p2gvzGfXQOMOGjnz9/k9Q4EYbRq2OL7NycfPzlcpCtus+Anm8tpAAqpogTRE0aw3PHQTmmNBmHPfUjKnwUF5UT3Te3weqppg=
+  on:
+    tags: true
+    repo: mrhenry/mr-haraway

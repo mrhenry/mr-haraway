@@ -1,0 +1,30 @@
+{
+  "name": "mr-haraway",
+  "version": "1.0.0",
+  "description": "Small Angular.js directive that makes working with Haraway easier",
+  "main": "haraway.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mrhenry/mr-haraway.git"
+  },
+  "author": "Pieter Beulque",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrhenry/mr-haraway/issues"
+  },
+  "homepage": "https://github.com/mrhenry/mr-haraway#readme",
+  "dependencies": {
+    "fd-angular-core": "1.x.x"
+  },
+  "jspm": {
+    "jspmNodeConversion": false,
+    "format": "es6",
+    "main": "haraway.js",
+    "dependencies": {
+      "fd-angular-core": "npm:fd-angular-core"
+    }
+  }
+}
