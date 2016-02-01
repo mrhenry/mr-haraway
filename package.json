@@ -1,6 +1,6 @@
 {
   "name": "mr-haraway",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small Angular.js directive that makes working with Haraway easier",
   "main": "haraway.js",
   "scripts": {
