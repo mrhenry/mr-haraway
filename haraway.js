@@ -1,3 +1,4 @@
+/* */
 import { Component, Inject } from 'fd-angular-core';
 
 @Component({
@@ -11,7 +12,7 @@ import { Component, Inject } from 'fd-angular-core';
 @Inject('$element')
 class MrHarawayController {
 
-	SUPPORT_RETINA = true;
+	SUPPORT_RETINA = false;
 
 	ROOT = '//c.assets.sh';
 
@@ -30,6 +31,10 @@ class MrHarawayController {
 
 	preload(id) {
 		if (!id || !this.$element) {
+			if (this.$element) {
+				this.$element.addClass('is-empty');
+			}
+
 			return false;
 		}
 
@@ -39,6 +44,7 @@ class MrHarawayController {
 					url = this.versioned(id, this.$element.outerWidth() || (this.$element.outerHeight() / 9 * 16) );
 
 					if (!url) {
+						this.$element.addClass('is-empty');
 						return false;
 					}
 
